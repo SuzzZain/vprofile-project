@@ -37,7 +37,7 @@ services:
 
   vproweb:
     build: 
-      context: ./Docker-files/webapps
+      context: ./Docker-files/web
     image: suzzain700/vprofileweb
     container_name: vproweb
     ports:
